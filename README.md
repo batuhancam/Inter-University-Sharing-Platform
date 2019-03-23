@@ -1,4 +1,4 @@
-# Inter University Sharing Platform  ![Untitled-2-Recovered](https://user-images.githubusercontent.com/47675796/54869891-d7ffec80-4daf-11e9-8043-967bcb0f0db8.png)
+# Inter University Sharing Platform
 ###### Inter-University sharing and development platform in Turkey. Only University Students can share.
 
 **Active Universities**
