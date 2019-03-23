@@ -1,4 +1,4 @@
-![Untitled-2-2](https://user-images.githubusercontent.com/47675796/54870013-0d0d3e80-4db2-11e9-9215-86f27125206b.png)
+![Untitled-2-Reco22vered](https://user-images.githubusercontent.com/47675796/54870051-90c72b00-4db2-11e9-9c61-a7c85b054eea.png)
 
 ###### Inter-University sharing and development platform in Turkey. Only University Students can share.
 
