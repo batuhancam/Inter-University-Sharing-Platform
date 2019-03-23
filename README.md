@@ -3,8 +3,8 @@
 ###### Inter-University sharing and development platform in Turkey. Only University Students can share.
 
 **Active Universities**
-  - Manisa Celal Bayar University
   - Iskenderun Technical University
+  - Manisa Celal Bayar University
 
 
 
