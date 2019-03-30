@@ -129,11 +129,11 @@ class hayvanatbahcesi
 	{ 
 	quest=user;
 		system("cls");
-		cout<<"Çiftlik menusüne hoþgeldiniz.."<<endl;
+		cout<<"Ã‡iftlik menusÃ¼ne hoÃ¾geldiniz.."<<endl;
 		cout<<"1-)Hayvan besleme\n";
-		cout<<"2-)Hayvan satýn al.\n";
-		cout<<"3-)Hayvan çiftleþtir.\n";
-		cout<<"4-)Hayvanlarýný açlýk durumunu kontrol et.\n";
+		cout<<"2-)Hayvan satÃ½n al.\n";
+		cout<<"3-)Hayvan Ã§iftleÃ¾tir.\n";
+		cout<<"4-)HayvanlarÃ½nÃ½ aÃ§lÃ½k durumunu kontrol et.\n";
 		cout<<"Secim:";cin>>secim;
 		if(secim=="2")
 		hayvan_buy();
@@ -148,15 +148,15 @@ class hayvanatbahcesi
 		system("cls");
 		string buying;
 		cout<<"1-)AT 250 KREDI"<<endl;
-		cout<<"2-)Vazgeç"<<endl;
+		cout<<"2-)VazgeÃ§"<<endl;
 		
 		do
 		{
-		cout<<"Seç:";
+		cout<<"SeÃ§:";
 		cin>>buying;
 		if(buying=="2") menu(quest);
 		}while(!(buying=="1" || buying=="2" ));
-		cout<<"Satýn alýmdan sonraki bakiye:"<<quest.kredi-at<<" onay için 'y' çýkmak için 'n'";	
+		cout<<"SatÃ½n alÃ½mdan sonraki bakiye:"<<quest.kredi-at<<" onay iÃ§in 'y' Ã§Ã½kmak iÃ§in 'n'";	
 		cin>>onay;
 		if(onay=='y')
 		{
@@ -182,7 +182,7 @@ int main(int argc, char** argv)
 	setlocale(LC_ALL, "Turkish"); 
 
 	system("cls");
-	cout<<"1-)Giriþ\n2-)Yeni Üyelik\n3-)Çýkýþ\nSeçim:";
+	cout<<"1-)GiriÃ¾\n2-)Yeni Ãœyelik\n3-)Ã‡Ã½kÃ½Ã¾\nSeÃ§im:";
 	cin>>secim;
 	
 		
@@ -192,10 +192,10 @@ int main(int argc, char** argv)
 		do
 		{
 		system("cls");
-		cout<<"Menüye dönmek için kullanici adina '**' giriþi yapýnýz..\n";
+		cout<<"MenÃ¼ye dÃ¶nmek iÃ§in kullanici adina '**' giriÃ¾i yapÃ½nÃ½z..\n";
 		cout<<"Kullanici adiniz:";cin>>kadi;cout<<endl;
 		if(kadi=="**") goto menu;
-		cout<<"Þifreniz:";cin>>sifre;cout<<endl;
+		cout<<"Ãžifreniz:";cin>>sifre;cout<<endl;
 		user.kadi=kadi;
 		user.sifre=sifre;
 		}
@@ -205,11 +205,11 @@ int main(int argc, char** argv)
 		if(user.ugiris())
 		{
 			system("cls");	
-			cout<<kadi<<" Hoþgeldiniz."<<user.kredi<<" krediniz bulunmaktadir."<<endl;
+			cout<<kadi<<" HoÃ¾geldiniz."<<user.kredi<<" krediniz bulunmaktadir."<<endl;
 			hayvanatbahcesi ubahce;
 			ubahce.menu(user);
 		}
-		else cout<<"Giriþ baþarýsýz oldu.";
+		else cout<<"GiriÃ¾ baÃ¾arÃ½sÃ½z oldu.";
 		
 
 	}
@@ -219,14 +219,14 @@ int main(int argc, char** argv)
 		
 		system("cls");
 		cout<<"Kullanici adiniz:";cin>>kadi;cout<<endl;
-		cout<<"Þifreniz:";cin>>sifre;cout<<endl;
+		cout<<"Ãžifreniz:";cin>>sifre;cout<<endl;
 		
 		user.kadi=kadi;
 		user.sifre=sifre;
 		if(user.ukaydet())
 		{
 			system("cls");
-			cout<<"Kayýt Baþarýlý..\nOyuna geçiyorsunuz..";
+			cout<<"KayÃ½t BaÃ¾arÃ½lÃ½..\nOyuna geÃ§iyorsunuz..";
 			sleep(5);
 			goto oyun;
 		}
@@ -234,7 +234,7 @@ int main(int argc, char** argv)
 	else if(secim=="3"){
 
 		system("cls");
-		cout<<"Çýkýþ yapýlýyor..";
+		cout<<"Ã‡Ã½kÃ½Ã¾ yapÃ½lÃ½yor..";
 		sleep(3);
 		exit(EXIT_FAILURE);
 			}
@@ -242,7 +242,7 @@ int main(int argc, char** argv)
 		{
 		
 			system("cls");
-			cout<<"Yanlýþ seçim yaptýnýz menüye yönlendiriliyorsunuz..";
+			cout<<"YanlÃ½Ã¾ seÃ§im yaptÃ½nÃ½z menÃ¼ye yÃ¶nlendiriliyorsunuz..";
 		
 			sleep(2);
 			goto menu;
