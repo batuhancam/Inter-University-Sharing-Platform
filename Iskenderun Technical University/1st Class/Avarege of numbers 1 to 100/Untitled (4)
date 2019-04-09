@@ -1,0 +1,16 @@
+#include<iostream>
+#include<cmath>
+class BasitMakine
+{
+	double Hesapla(double aci1,double aci2,double x)
+	{
+		int t1=
+		int t2=
+	}
+};
+int main()
+{
+	BasitMakine denklem;
+	
+	
+}

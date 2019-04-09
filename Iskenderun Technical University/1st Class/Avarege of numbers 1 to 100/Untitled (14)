@@ -1,0 +1,31 @@
+#include<iostream>
+using namespace std;
+
+class dizi
+{
+	int x;
+	public :
+	dizi(int a)
+	{
+		x=a;
+	}
+	int oku()
+	{
+		return x;
+	}
+	
+};
+
+
+int main()
+{
+	int i;
+	dizi diz[4]={3,6,7,0};
+	dizi *p;
+	p=diz;
+	for(i=0;i<4;i++)
+	{
+		cout<<p->oku()<<"\n";
+		p++;
+	}
+}

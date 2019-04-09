@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+class test
+{
+	public:
+	int a;
+	test(int b,int c);
+	~test();
+	void goruntule();
+};
+test::test(int b,int c)
+{
+	a=5;
+	b=a+25;
+	c=a*b;
+	a=c;
+}
+test::~test()
+{}
+void test::goruntule()
+{
+	cout<<a;
+}
+int main()
+{
+	test deneme(5,100);
+	deneme.goruntule();
+}

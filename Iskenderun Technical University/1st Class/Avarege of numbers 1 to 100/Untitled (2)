@@ -1,0 +1,25 @@
+#include<iostream>
+ using namespace std;
+
+class hayvan
+{
+	private:
+	int yas;
+	public:
+	int pub()
+	{
+		
+		return yas=99;
+	}
+};
+class kopek:public hayvan
+{
+};
+int main()
+{
+	kopek dogi;
+	
+	
+	cout<<dogi.pub();
+	
+}

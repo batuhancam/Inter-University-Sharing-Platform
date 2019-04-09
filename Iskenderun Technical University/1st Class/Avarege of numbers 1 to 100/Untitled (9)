@@ -1,0 +1,32 @@
+#include<iostream>
+
+using namespace std;
+class hayvan
+{
+	public:
+	hayvan()
+	{ ad="deneme";
+		} //alt classlardan oluşturulan nesnelerde bile tetiklenir.
+
+int yas;	
+ //yarı korunumlu kaltıımlı classlardann çalıştırılabilir
+string ad ;
+
+//sub classlara child class denir.
+};
+class kopek : public hayvan
+{
+	
+	//hangi classtaysak bir üstü super classtir
+	public:
+	double GosterDeger()
+	{
+	}
+};
+int main()
+{
+	kopek dogi;
+	dogi.yas=50;
+	cout<<dogi.yas<<dogi.ad;
+	
+}

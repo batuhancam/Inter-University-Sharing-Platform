@@ -1,0 +1,21 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+class Matematik
+{
+	public:
+	void KokAl(int a,int b,int c)
+	{
+		int kok=sqrt((pow(b,2))-(4*a*c));
+		int x1=(-b+kok)/(2*a);
+		int x2=(-b-kok)/(2*a);
+		
+		cout<<" "<<x1<<" "<<x2;
+	}
+};
+int main()
+{
+	Matematik deneme;
+	deneme.KokAl(2,6,-20);
+	
+}

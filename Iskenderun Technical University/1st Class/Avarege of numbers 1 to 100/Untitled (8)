@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+class test
+{
+	private:
+	int a,b;
+	
+	public:
+	test();
+	friend void arkadas(test abc);
+};
+test::test()
+{
+	a=5;
+}
+
+void arkadas(test abc)
+{
+	cout<<abc.a;
+}
+int main ()
+{
+	test k;
+	arkadas(k);
+	}
